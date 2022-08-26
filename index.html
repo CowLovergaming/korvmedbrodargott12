@@ -1,0 +1,92 @@
+<!-- \ _(>_<)_/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>honk</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JavaScript/jquery-3.6.0.js"></script>
+    <h1 id="korv1">korvmedbrodargott12</h1>
+    <h4 id="num1Header">--------Clicker--------</h4>
+    <h4 id="num2Header">---------Dice---------</h4>
+    <p id="num1">0</p>
+    <p id="num2">0</p>
+    <p id="diceSelectText1">Please select dice</p>
+</head>
+
+<body>
+    <!--The first counter-->
+    <input class="buttonGroup1" id="plus1" onclick="plusFunction1()" type="button" value="Click +">
+    <input class="buttonGroup1" id="minus1" onclick="minusFunction1()" type="button" value="Click -">
+    <input class="buttonGroup1" id="save1" onclick="saveFunction1()" type="button" value="Save">
+    <input class="buttonGroup1" id="restore1" onclick="resetFunction1()" type="button" value="Reset">
+    <!--The dice-->
+    <input class="buttonGroup2" id="d6Roll1" onclick="rollFunction1()" type="button" value="Roll">
+    <input class="buttonGroup2" id="selectDiceSubmit1" onclick="chooseDice1()" type="button" value="Choose">
+    <div id="diceGroup1">
+        <form name="selectDiceForm1">
+            <!--The D6-->
+            <label for="selectDice1" id="selectDiceLabel1">D6<br>
+                <input type="radio" name="selectDiceGroup1" id="selectDice1">
+            </label>
+            <!--The D4-->
+            <label for="selectDice2" id="selectDiceLabel2">D4<br>
+                <input type="radio" name="selectDiceGroup1" id="selectDice2">
+            </label>
+            <!--The D8-->
+            <label for="selectDice3" id="selectDiceLabel3">D8<br>
+                <input type="radio" name="selectDiceGroup1" id="selectDice3">
+            </label>
+            <!--The D10-->
+            <label for="selectDice4" id="selectDiceLabel4">D10<br>
+                <input type="radio" name="selectDiceGroup1" id="selectDice4">
+            </label>
+            <!--The D12-->
+            <label for="selectDice5" id="selectDiceLabel5">D12<br>
+                <input type="radio" name="selectDiceGroup1" id="selectDice5">
+            </label>
+            <!--The D20-->
+            <label for="selectDice6" id="selectDiceLabel6">D20<br>
+                <input type="radio" name="selectDiceGroup1" id="selectDice6">
+            </label>
+            <!--The D100-->
+            <label for="selectDice7" id="selectDiceLabel7">D100<br>
+                <input type="radio" name="selectDiceGroup1" id="selectDice7">
+            </label>
+        </form>
+    </div>
+    <div id="calcNumbers1">
+        <div class="calcRowDiv1">
+            <input type="text" id="calculatorTextBar1">
+        </div>
+        <div class="calcRowDiv1" id="calcRow7-9">
+            <input class="calcNumbers1" type="button" id="calculatorNumber7" onclick="clickCalc1(7)" value="7">
+            <input class="calcNumbers1" type="button" id="calculatorNumber8" onclick="clickCalc1(8)" value="8">
+            <input class="calcNumbers1" type="button" id="calculatorNumber9" onclick="clickCalc1(9)" value="9">
+            <input class="calcNumbers1" type="button" id="calculatorDivide" onclick="clickCalc1('/')" value="÷">
+
+        </div>
+        <div class="calcRowDiv1" id="calcRow4-6">
+            <input class="calcNumbers1" type="button" id="calculatorNumber4" onclick="clickCalc1(4)" value="4">
+            <input class="calcNumbers1" type="button" id="calculatorNumber5" onclick="clickCalc1(5)" value="5">
+            <input class="calcNumbers1" type="button" id="calculatorNumber6" onclick="clickCalc1(6)" value="6">
+            <input class="calcNumbers1" type="button" id="calculatorMultiply" onclick="clickCalc1('*')" value="×">
+        </div>
+        <div class="calcRowDiv1" id="calcRow1-3">
+            <input class="calcNumbers1" type="button" id="calculatorNumber1" onclick="clickCalc1(1)" value="1">
+            <input class="calcNumbers1" type="button" id="calculatorNumber2" onclick="clickCalc1(2)" value="2">
+            <input class="calcNumbers1" type="button" id="calculatorNumber3" onclick="clickCalc1(3)" value="3">
+            <input class="calcNumbers1" type="button" id="calculatorMinus" onclick="clickCalc1('-')" value="−">
+        </div>
+        <div class="calcRowDiv1" id="calcRow0">
+            <input class="calcNumbers1" type="button" id="calculatorComma" onclick="clickCalc1(',')" value=",">
+            <input class="calcNumbers1" type="button" id="calculatorNumber0" onclick="clickCalc1(0)" value="0">
+            <input class="calcNumbers1" type="button" id="calculatorEquals" onclick="clickCalc1('=')" value="=">
+            <input class="calcNumbers1" type="button" id="calculatorPlus" onclick="clickCalc1('+')" value="+">
+        </div>
+    </div>
+    <script src="JavaScript/function.js"></script>
+</body>
+
+</html>
