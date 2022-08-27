@@ -1,226 +1,225 @@
 #korv1 {
-    position: fixed;
-    color: blue;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: relative;
+  color: blue;
+  text-align: center;
 }
 
 /*The first counter*/
 
 #plus1 {
-    position: fixed;
-    background-color: yellow;
-    left: 60%;
-    top: 10%;
-    transform: translate(-50%, -50%);
+  position: fixed;
+  background-color: yellow;
+  left: 53%;
+  top: 10%;
+  width: 60px;
 }
 
 #minus1 {
-    position: fixed;
-    background-color: #0099ff;
-    left: 40%;
-    top: 10%;
-    transform: translate(-50%, -50%);
+  position: fixed;
+  background-color: #0099ff;
+  left: 45%;
+  top: 10%;
+  width: 60px;
 }
 
 #restore1 {
-    position: fixed;
-    background-color: #ff003c;
-    left: 33%;
-    top: 10%;   
-    transform: translate(-50%, -50%);
+  position: fixed;
+  background-color: #ff003c;
+  left: 33%;
+  top: 10%;
+  transform: translate(-50%, -50%);
 }
 
 #save1 {
-    position: fixed;
-    background-color: rgb(132, 202, 28);
-    left: 30%;
-    top: 10%;
-    transform: translate(-50%, -50%);
+  position: fixed;
+  background-color: rgb(132, 202, 28);
+  left: 30%;
+  top: 10%;
+  transform: translate(-50%, -50%);
 }
 
 #num1 {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 25px;
-    font-weight: bold;
-    left: 50%;
-    top: 8%;   
-    transform: translate(-50%, -50%);
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 25px;
+  font-weight: bold;
+  left: 50%;
+  top: 8%;
+  transform: translate(-50%, -50%);
 }
 
 #num1Header {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 20px;
-    font-weight: bold;
-    left: 50%;
-    top: 4.5%;   
-    transform: translate(-50%, -50%);
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  left: 50%;
+  top: 4.5%;
+  transform: translate(-50%, -50%);
 }
 
 .buttonGroup1 {
-    border: dashed black;
+  border: dashed black;
 }
 
 /*Dice*/
 
 #diceSelectText1 {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 20px;
-    font-weight: bold;
-    left: 34%;
-    top: 11.3%;   
-    transform: translate(-50%, -50%);
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  left: 34%;
+  top: 11.3%;
+  transform: translate(-50%, -50%);
 }
 
 #selectDiceLabel1 {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 17px;
-    float: left;
-    padding: 0 1em;
-    text-align: center;
-    left: 28%;
-    top: 16%;
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+  float: left;
+  padding: 0 1em;
+  text-align: center;
+  left: 28%;
+  top: 16%;
 }
 
 #selectDiceLabel2 {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 17px;
-    float: left;
-    padding: 0 1em;
-    text-align: center;
-    left: 26%;
-    top: 16%;
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+  float: left;
+  padding: 0 1em;
+  text-align: center;
+  left: 26%;
+  top: 16%;
 }
 
 #selectDiceLabel3 {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 17px;
-    float: left;
-    padding: 0 1em;
-    text-align: center;
-    left: 30%;
-    top: 16%;
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+  float: left;
+  padding: 0 1em;
+  text-align: center;
+  left: 30%;
+  top: 16%;
 }
 
 #selectDiceLabel4 {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 17px;
-    float: left;
-    padding: 0 1em;
-    text-align: center;
-    left: 32%;
-    top: 16%;
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+  float: left;
+  padding: 0 1em;
+  text-align: center;
+  left: 32%;
+  top: 16%;
 }
 
 #selectDiceLabel5 {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 17px;
-    float: left;
-    padding: 0 1em;
-    text-align: center;
-    left: 34%;
-    top: 16%;
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+  float: left;
+  padding: 0 1em;
+  text-align: center;
+  left: 34%;
+  top: 16%;
 }
 
 #selectDiceLabel6 {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 17px;
-    float: left;
-    padding: 0 1em;
-    text-align: center;
-    left: 36%;
-    top: 16%;
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+  float: left;
+  padding: 0 1em;
+  text-align: center;
+  left: 36%;
+  top: 16%;
 }
 
 /*The D100*/
 #selectDiceLabel7 {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 17px;
-    float: left;
-    padding: 0 1em;
-    text-align: center;
-    left: 38%;
-    top: 16%;
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+  float: left;
+  padding: 0 1em;
+  text-align: center;
+  left: 38%;
+  top: 16%;
 }
 
 #selectDiceSubmit1 {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 17px;
-    font-weight: bold;
-    background-color: #f0f;
-    border: dashed black;
-    float: left;
-    padding: 0 1em;
-    text-align: center;
-    left: 31%;
-    top: 21%;
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #f0f;
+  border: dashed black;
+  float: left;
+  padding: 0 1em;
+  text-align: center;
+  left: 31%;
+  top: 21%;
 }
 
 /*The d6*/
 #d6Roll1 {
-    position: fixed;
-    background-color: #f0f;
-    border: dashed black;
-    left: 60%;
-    top: 16%;
-    transform: translate(-50%, -50%);
+  position: fixed;
+  background-color: #f0f;
+  border: dashed black;
+  left: 60%;
+  top: 16%;
+  transform: translate(-50%, -50%);
 }
 
 #num2 {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 25px;
-    font-weight: bold;
-    left: 50%;
-    top: 14%;   
-    transform: translate(-50%, -50%);
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 25px;
+  font-weight: bold;
+  left: 50%;
+  top: 14%;
+  transform: translate(-50%, -50%);
 }
 
 #num2Header {
-    position: fixed;
-    font-family: 'Courier New', monospace;
-    font-size: 20px;
-    font-weight: bold;
-    left: 50%;
-    top: 10.7%;   
-    transform: translate(-50%, -50%);
+  position: fixed;
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  left: 50%;
+  top: 10.7%;
+  transform: translate(-50%, -50%);
 }
 
 #calculatorTextBar1 {
-    position: relative;
-    font-family: 'Courier New', monospace;
-    width: 236px;
-    font-size: 50px;
-    left: 70%;
-    margin-top: 10px;
-    margin-left: 5px;
-    top: 65px;
-    text-align: right;
+  position: relative;
+  font-family: "Courier New", monospace;
+  width: 236px;
+  font-size: 50px;
+  left: 70%;
+  margin-top: 10px;
+  margin-left: 5px;
+  top: 65px;
+  text-align: right;
 }
 
 #calcNumbers1 {
-    user-select: none;
+  user-select: none;
 }
 
 .calcNumbers1 {
-    position: relative;
-    font-family: 'Courier New', monospace;  
-    font-weight: bold;
-    font-size: 50px;
-    padding: 10px 10px; 
-    left: 70%;
-    margin-top: 10px;
-    margin-left: 5px;
-    top: 65px;
+  position: relative;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 10px 10px;
+  left: 70%;
+  margin-top: 10px;
+  margin-left: 5px;
+  top: 65px;
 }
