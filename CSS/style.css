@@ -1,5 +1,5 @@
 #korv1 {
-    position: absolute;
+    position: fixed;
     color: blue;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -8,7 +8,7 @@
 /*The first counter*/
 
 #plus1 {
-    position: absolute;
+    position: fixed;
     background-color: yellow;
     left: 60%;
     top: 10%;
@@ -16,7 +16,7 @@
 }
 
 #minus1 {
-    position: absolute;
+    position: fixed;
     background-color: #0099ff;
     left: 40%;
     top: 10%;
@@ -24,7 +24,7 @@
 }
 
 #restore1 {
-    position: absolute;
+    position: fixed;
     background-color: #ff003c;
     left: 33%;
     top: 10%;   
@@ -32,7 +32,7 @@
 }
 
 #save1 {
-    position: absolute;
+    position: fixed;
     background-color: rgb(132, 202, 28);
     left: 30%;
     top: 10%;
@@ -40,7 +40,7 @@
 }
 
 #num1 {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 25px;
     font-weight: bold;
@@ -50,7 +50,7 @@
 }
 
 #num1Header {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 20px;
     font-weight: bold;
@@ -66,7 +66,7 @@
 /*Dice*/
 
 #diceSelectText1 {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 20px;
     font-weight: bold;
@@ -76,7 +76,7 @@
 }
 
 #selectDiceLabel1 {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 17px;
     float: left;
@@ -87,7 +87,7 @@
 }
 
 #selectDiceLabel2 {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 17px;
     float: left;
@@ -98,7 +98,7 @@
 }
 
 #selectDiceLabel3 {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 17px;
     float: left;
@@ -109,7 +109,7 @@
 }
 
 #selectDiceLabel4 {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 17px;
     float: left;
@@ -120,7 +120,7 @@
 }
 
 #selectDiceLabel5 {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 17px;
     float: left;
@@ -131,7 +131,7 @@
 }
 
 #selectDiceLabel6 {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 17px;
     float: left;
@@ -143,7 +143,7 @@
 
 /*The D100*/
 #selectDiceLabel7 {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 17px;
     float: left;
@@ -154,7 +154,7 @@
 }
 
 #selectDiceSubmit1 {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 17px;
     font-weight: bold;
@@ -169,7 +169,7 @@
 
 /*The d6*/
 #d6Roll1 {
-    position: absolute;
+    position: fixed;
     background-color: #f0f;
     border: dashed black;
     left: 60%;
@@ -178,7 +178,7 @@
 }
 
 #num2 {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 25px;
     font-weight: bold;
@@ -188,7 +188,7 @@
 }
 
 #num2Header {
-    position: absolute;
+    position: fixed;
     font-family: 'Courier New', monospace;
     font-size: 20px;
     font-weight: bold;
