@@ -206,6 +206,8 @@
   margin-left: 5px;
   top: 65px;
   text-align: right;
+  pointer-events: none
+  
 }
 
 #calcNumbers1 {
